@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Games and fun</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="modal">
+      <h1>Interesting games 🤗 😍</h1>
+      <h4>Choose the game you would love to proceed with!</h4>
+      <button onclick="openGuessGame()" class="guess-modal">
+        Guess My Number
+      </button>
+      <button onclick="openDiceGame()" class="dice-modal">Dice Roller</button>
+    </div>
+    <script>
+      function openGuessGame() {
+        window.location.href = "guess.html";
+      }
+      function openDiceGame() {
+        window.location.href = "dice.html";
+      }
+    </script>
+  </body>
+</html>
